@@ -1,4 +1,4 @@
-
+import '../styles/containers/MyOrder.scss'
 
 const MyOrder = () => {
     return (

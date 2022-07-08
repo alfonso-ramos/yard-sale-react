@@ -1,4 +1,4 @@
-
+import '../styles/components/Order.scss'
 
 const Order = () => {
     return (

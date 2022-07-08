@@ -1,4 +1,4 @@
-
+import '../styles/containers/ProductDetail.scss'
 
 const ProductDetail = () => {
     return (

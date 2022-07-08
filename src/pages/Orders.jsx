@@ -1,4 +1,5 @@
 import OrderItem from "../components/OrderItem"
+import '../styles/pages/Orders.scss'
 
 const Orders = () => {
   return (

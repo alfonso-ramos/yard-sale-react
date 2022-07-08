@@ -1,4 +1,4 @@
-
+import '../styles/components/ProductItem.scss'
 
 const ProductItem = () => {
     return (

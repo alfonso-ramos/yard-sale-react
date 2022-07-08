@@ -1,4 +1,4 @@
-
+import '../styles/components/ProductInfo.scss'
 
 const ProductInfo = () => {
     return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import '../styles/pages/MyAccount.scss'
 
 const MyAccount = () => {
   return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import '../styles/pages/SendEmail.scss'
 
 const SendEmail = () => {
   return (

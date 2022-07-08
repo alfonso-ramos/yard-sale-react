@@ -1,4 +1,4 @@
-
+import '../styles/components/ShoppingCartItem.scss'
 
 const ShoppingCartItem = () => {
     return (

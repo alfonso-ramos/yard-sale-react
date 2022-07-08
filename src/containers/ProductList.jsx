@@ -1,4 +1,5 @@
 import ProductItem from "../components/ProductItem"
+import '../styles/containers/ProductList.scss'
 
 const ProductList = () => {
     return (
