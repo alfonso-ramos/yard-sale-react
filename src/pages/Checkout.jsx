@@ -1,5 +1,4 @@
 import OrderItem from "../components/OrderItem"
-import Menu from "../components/Menu"
 import '../styles/pages/Checkout.scss'
 
 const Checkout = () => {

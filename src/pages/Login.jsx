@@ -1,10 +1,12 @@
 import "../styles/pages/Login.scss"
 
+import logo from '../assets/logos/logo_yard_sale.svg'
+
 const Login = () => {
     return (
         <div className="Login">
             <div className="Login-container">
-                <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+                <img src={logo} alt="logo" className="login-container-logo" />
                 <form action="/" className="form">
                     <label htmlFor="email" className="label">Email address</label>
                     <input type="text" id="email" placeholder="platzi@example.cm" className="input input-email" />

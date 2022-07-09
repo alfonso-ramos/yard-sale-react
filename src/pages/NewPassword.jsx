@@ -1,10 +1,11 @@
 import '../styles/pages/NewPassword.scss'
+import logo from '../assets/logos/logo_yard_sale.svg'
 
 const NewPassword = () => {
   return (
     <div className="NewPassword">
       <div className="NewPassword-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+        <img src={logo} alt="logo" className="NP-logo" />
         <h1 className="title">Create a new password</h1>
         <p className="subtitle">Enter a new passwrd for yue account</p>
         <form action="/" className="form">
