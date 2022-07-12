@@ -1,6 +1,7 @@
 import { useState, useContext } from 'react'
 
 import Menu from '../components/Menu'
+import MyOrder from '../containers/MyOrder'
 
 import '../styles/components/Header.scss'
 
@@ -11,6 +12,7 @@ import AppContext from '../context/AppContext'
 
 const Header = () => {
     const [toggle, setToggle] = useState(false)
+    const [toggleOrders, setToggleOrders] = useState(false)
     const {state} = useContext(AppContext)
 
     const handleToggle = () => {
@@ -48,13 +50,16 @@ const Header = () => {
                         <li className="navbar-email" onClick={handleToggle}>
                             platzi@example.com
                         </li>
-                        <li className="navbar-shopping-cart">
+                        <li
+                            className="navbar-shopping-cart"
+                            onClick={() => setToggleOrders(!toggleOrders)}>
                             <img src={ShoppingCartIcon} alt="shopping cart" />
                             {state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
                         </li>
                     </ul>
                 </div>
                 {toggle && <Menu />}
+                {toggleOrders && <MyOrder />}
             </nav>
     )
 }
